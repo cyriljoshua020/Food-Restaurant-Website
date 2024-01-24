@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/login.png);
+    background-size: cover ;
+    background-position: center;
+    font-family: 'Signika', sans-serif;
+    height: 100vh;
+}
+.login{
+     width: 320px;
+     height: 420px;
+     background: wheat;
+     color: #ac6546;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing: border-box;
+     padding: 70px 30px;
+
+}
+.log{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+ .login input{
+     width: 100%;
+     margin-bottom: 20px;
+ }
+ .login input[type="text"], input[type="password"]
+ {
+     border: none;
+     border-bottom: 1px solid #bd7e63;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color:black;
+     font-size: 16px;
+ }
+
+.btn a{
+    padding-top: 8px;
+    padding-bottom: -50px;
+    background-color: wheat;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: 260px;
+    color:#ac6546;
+    border: .5px solid #ac6546;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    border-radius: 0px;
+    font-size: 17px;
+}
+.btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ac6546 ;
+    z-index: -1;
+    transition: 0.5s;
+}
+.btn a:hover span{
+    width: 100%;
+
+}
+.btn a:hover{
+    color: rgb(245, 245, 245);
+
+}
+.login b{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.login b:hover{
+    color: #ac6546;
+}
